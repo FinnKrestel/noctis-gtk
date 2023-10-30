@@ -1,0 +1,15 @@
+[SddmGreeterTheme]
+Name=Noctis
+Description=Noctis sddm theme
+Author=Finn Krestel
+Copyright=(c) 2019, Eliver Lara; Finn Krestel, 2023
+License=GPL 3+
+Type=sddm-theme
+Version=0.1
+Website=https://github.com/FinnKrestel/noctis-gtk/tree/master/kde/sddm
+Screenshot=preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Theme-Id=Noctis
+Theme-API=2.0

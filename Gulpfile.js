@@ -6,15 +6,14 @@ gulp.task('styles', function(done) {
     gulp.src('gtk-3.20/**/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./gtk-3.20/'))
-        .pipe(exec(' gsettings set org.gnome.desktop.interface gtk-theme "Dracula"'))
+        .pipe(exec(' gsettings set org.gnome.desktop.interface gtk-theme "Noctis"'))
     done();
 });
 gulp.task('shell-style', function(done) {
     gulp.src('gnome-shell/**/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./gnome-shell/'))
-        .pipe(exec('gsettings set org.gnome.shell.extensions.user-theme name "Ant"'))
-        .pipe(exec('gsettings set org.gnome.shell.extensions.user-theme name "Dracula"'))
+        .pipe(exec('gsettings set org.gnome.shell.extensions.user-theme name "Noctis"'))
     done();
 });
 
@@ -22,9 +21,9 @@ gulp.task('cinnamon-style', function(done) {
     gulp.src('cinnamon/**/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./cinnamon/'))
-        .pipe(exec(' gsettings set org.cinnamon.desktop.interface gtk-theme "Dracula"'))
-        .pipe(exec(' gsettings set org.cinnamon.desktop.wm.preferences theme "Dracula"'))
-        .pipe(exec(' gsettings set org.cinnamon.theme name "Dracula"'))
+        .pipe(exec(' gsettings set org.cinnamon.desktop.interface gtk-theme "Noctis"'))
+        .pipe(exec(' gsettings set org.cinnamon.desktop.wm.preferences theme "Noctis"'))
+        .pipe(exec(' gsettings set org.cinnamon.theme name "Noctis"'))
     done();
 });
 

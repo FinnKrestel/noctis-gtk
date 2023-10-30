@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Noctis
+Comment[es]=Un tema oscuro creado usando la asombrosa paleta de colores Noctis.
+Comment=A dark theme created using the awesome Noctis color palette.
+X-KDE-PluginInfo-Author=Finn Krestel
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-Name=Noctis
+X-KDE-PluginInfo-Version=1.0.0
+X-KDE-PluginInfo-Website=https://github.com/FinnKrestel/noctis-gtk/tree/master/kde
+X-KDE-PluginInfo-Category=Plasma Theme
+X-KDE-PluginInfo-License=GPLv3
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-API=5.0
+
+[AdaptiveTransparency]
+enabled=true
